@@ -82,7 +82,7 @@ public class ReimRequestController {
 		return "reimrequest-form";
 	}
 	
-	@GetMapping("/delete")
+	@DeleteMapping("/delete")
 	public String deleteReinRequest(@RequestParam("theReimRequestId") int theId) {
 		
 		// delete reimrequest
